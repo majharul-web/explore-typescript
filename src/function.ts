@@ -9,7 +9,7 @@ console.log(result1);
 
 // example 1:add two num or name
 function add2(num1:number |string, num2:number |string):number |string{
-    const result=num1+num2;
+    const result :string=num1+num2;
     return result;
 }
 const result2:number=add1(30,15);
